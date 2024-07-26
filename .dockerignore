@@ -1,0 +1,7 @@
+.dockerignore
+.mvn/
+.idea/
+*.iml
+Dockerfile
+skaffold.yaml
+!/target/*.jar
