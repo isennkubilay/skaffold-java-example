@@ -7,10 +7,10 @@ build:
   - image: my-java-app-image
 
     custom:
-      buildCommand: ./build.sh
+      buildCommand: ./scripts/build.sh
 manifests:
   rawYaml:
-    - ./deployment.yaml
+    - ./k8s/deployment.yaml
 
 portForward:
 - resourceType: deployment
